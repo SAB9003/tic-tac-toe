@@ -10,11 +10,10 @@ byte number_of_moves = 1,last_move=9;
 while (number_of_moves <= last_move && not_game_over)
 {
     //Блок виводу поля
-    //Console.WriteLine($"\n{number_of_moves}\n");
     Console.WriteLine($"{first_field} | {second_field} | {third_field}");
-    Console.WriteLine("-------");
+    Console.WriteLine("----------");
     Console.WriteLine($"{fourth_field} | {fifth_field} | {sixth_field}");
-    Console.WriteLine("-------");
+    Console.WriteLine("----------");
     Console.WriteLine($"{seventh_field} | {eighth_field} | {ninth_field}");
     if (number_of_moves % 2 == 0)
         player = 'O';
@@ -147,9 +146,9 @@ while (number_of_moves <= last_move && not_game_over)
     number_of_moves++;
 }
 Console.WriteLine($"{first_field} | {second_field} | {third_field}");
-Console.WriteLine("-------");
+Console.WriteLine("----------");
 Console.WriteLine($"{fourth_field} | {fifth_field} | {sixth_field}");
-Console.WriteLine("-------");
+Console.WriteLine("----------");
 Console.WriteLine($"{seventh_field} | {eighth_field} | {ninth_field}");
 if (not_game_over)
     Console.WriteLine("Draw");
